@@ -14,6 +14,8 @@ signrequest_client.Configuration.set_default(default_configuration)
 api_instance = signrequest_client.DocumentsApi()
 data = signrequest_client.Document(
     file_from_url='YOUR_PDF_URL_HERE',
+    # In case of a template
+    # template="YOUR_TEMPLATE_URL/template/uuid"
 )
 
 try:
