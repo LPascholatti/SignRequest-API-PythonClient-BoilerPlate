@@ -14,6 +14,12 @@ Install the SignRequest's Python Library with:
 
 Replace "YOUR_TOKEN_HERE" with your team's Token, add the document's URLs (or template).
 
+2) Create a SignRequest with the appropriate Data. Such as signer's e-mail address and from_email.
+
+Alternative:
+
+You can create a document and make a Sign Request on the same request with the "quicklycreatesr.py".
+
 For more information check the documentation:
 
 https://signrequest.com/api/v1/docs/
